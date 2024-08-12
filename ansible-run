@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+## Install ansible
+sudo    apt update -y && \
+sudo    apt install -y ansible && \ 
+sudo    apt install -y neovim && \
+sudo    apt install -y curl && \
+sudo    apt install -y git   
+
+## pull ansible
+# sudo ansible-pull -U https://github.com/Vinay0022/ansible.git
